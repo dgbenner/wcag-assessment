@@ -1,6 +1,6 @@
 # WCAG 2.1 Compliance Auditor
 
-An AI-powered accessibility compliance checker based on comprehensive WCAG 2.1 guidelines and testing methodologies.
+AI-powered accessibility auditor providing comprehensive evaluations against all 78 WCAG 2.1 criteria with detailed testing procedures.
 
 ## What This Does
 
