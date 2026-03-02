@@ -1,4 +1,4 @@
-# WCAG 2.1 Accessibility Evaluator
+# WCAG 2.1 Compliance Auditor
 
 An AI-powered accessibility compliance checker based on comprehensive WCAG 2.1 guidelines and testing methodologies.
 
