@@ -1,0 +1,1616 @@
+{
+  "version": "2.2",
+  "total_criteria": 86,
+  "criteria": [
+    {
+      "id": "1.1.1",
+      "principle": "Perceivable",
+      "guideline": "Text Alternatives",
+      "success_criteria": "Non-text Content",
+      "level": "A",
+      "summary": "Provide text alternatives for non-text content",
+      "responsibilities": {
+        "design": true,
+        "development": true,
+        "project_requirements": true
+      },
+      "comments": ""
+    },
+    {
+      "id": "1.2.1",
+      "principle": "Perceivable",
+      "guideline": "Time-based Media",
+      "success_criteria": "Audio-only and Video-only (Pre-recorded)",
+      "level": "A",
+      "summary": "Provide an alternative to video-only and audio-only content",
+      "responsibilities": {
+        "design": false,
+        "development": false,
+        "project_requirements": false
+      },
+      "comments": ""
+    },
+    {
+      "id": "1.2.2",
+      "principle": "Perceivable",
+      "guideline": "Time-based Media",
+      "success_criteria": "Captions (Pre-recorded)",
+      "level": "A",
+      "summary": "Provide captions for videos with audio",
+      "responsibilities": {
+        "design": false,
+        "development": true,
+        "project_requirements": true
+      },
+      "comments": ""
+    },
+    {
+      "id": "1.2.3",
+      "principle": "Perceivable",
+      "guideline": "Time-based Media",
+      "success_criteria": "Audio Description or Media Alternative (Pre-recorded)",
+      "level": "A",
+      "summary": "Video with audio has a second alternative",
+      "responsibilities": {
+        "design": false,
+        "development": false,
+        "project_requirements": false
+      },
+      "comments": ""
+    },
+    {
+      "id": "1.2.4",
+      "principle": "Perceivable",
+      "guideline": "Time-based Media",
+      "success_criteria": "Captions (Live)",
+      "level": "AA",
+      "summary": "Live videos have captions",
+      "responsibilities": {
+        "design": false,
+        "development": false,
+        "project_requirements": false
+      },
+      "comments": ""
+    },
+    {
+      "id": "1.2.5",
+      "principle": "Perceivable",
+      "guideline": "Time-based Media",
+      "success_criteria": "Audio Description (Pre-recorded)",
+      "level": "AA",
+      "summary": "Users have access to audio description for video content",
+      "responsibilities": {
+        "design": false,
+        "development": false,
+        "project_requirements": false
+      },
+      "comments": ""
+    },
+    {
+      "id": "1.2.6",
+      "principle": "Perceivable",
+      "guideline": "Time-based Media",
+      "success_criteria": "Sign Language (Pre-recorded)",
+      "level": "AAA",
+      "summary": "Provide sign language translations for videos",
+      "responsibilities": {
+        "design": false,
+        "development": false,
+        "project_requirements": false
+      },
+      "comments": ""
+    },
+    {
+      "id": "1.2.7",
+      "principle": "Perceivable",
+      "guideline": "Time-based Media",
+      "success_criteria": "Extended Audio description (Pre-recorded)",
+      "level": "AAA",
+      "summary": "Provide extended audio description for videos",
+      "responsibilities": {
+        "design": false,
+        "development": false,
+        "project_requirements": false
+      },
+      "comments": ""
+    },
+    {
+      "id": "1.2.8",
+      "principle": "Perceivable",
+      "guideline": "Time-based Media",
+      "success_criteria": "Media Alternative (Pre-recorded)",
+      "level": "AAA",
+      "summary": "Provide alternatives for live audio",
+      "responsibilities": {
+        "design": false,
+        "development": false,
+        "project_requirements": false
+      },
+      "comments": ""
+    },
+    {
+      "id": "1.2.9",
+      "principle": "Perceivable",
+      "guideline": "Time-based Media",
+      "success_criteria": "Audio Only (Live)",
+      "level": "AAA",
+      "summary": "",
+      "responsibilities": {
+        "design": false,
+        "development": false,
+        "project_requirements": false
+      },
+      "comments": ""
+    },
+    {
+      "id": "1.3.1",
+      "principle": "Perceivable",
+      "guideline": "Adaptable",
+      "success_criteria": "Info and Relationships",
+      "level": "A",
+      "summary": "Semantic structure to make information and relationships conveyed through presentation programmatically determinable",
+      "responsibilities": {
+        "design": false,
+        "development": true,
+        "project_requirements": true
+      },
+      "comments": ""
+    },
+    {
+      "id": "1.3.2",
+      "principle": "Perceivable",
+      "guideline": "Adaptable",
+      "success_criteria": "Meaningful Sequence",
+      "level": "A",
+      "summary": "The order of content presented to assistive technologies allows the user to make sense of the content",
+      "responsibilities": {
+        "design": false,
+        "development": true,
+        "project_requirements": true
+      },
+      "comments": ""
+    },
+    {
+      "id": "1.3.3",
+      "principle": "Perceivable",
+      "guideline": "Adaptable",
+      "success_criteria": "Sensory Characteristics",
+      "level": "A",
+      "summary": "Use more than one sense for instructions. All users can access instructions for using the content, even when they cannot perceive shape or size or spatial location",
+      "responsibilities": {
+        "design": true,
+        "development": false,
+        "project_requirements": true
+      },
+      "comments": ""
+    },
+    {
+      "id": "1.3.4",
+      "principle": "Perceivable",
+      "guideline": "Adaptable",
+      "success_criteria": "Orientation (WCAG 2.1)",
+      "level": "AA",
+      "summary": "Content can be display in portrait and landscape orientation",
+      "responsibilities": {
+        "design": false,
+        "development": false,
+        "project_requirements": false
+      },
+      "comments": ""
+    },
+    {
+      "id": "1.3.5",
+      "principle": "Perceivable",
+      "guideline": "Adaptable",
+      "success_criteria": "Identify Input Purpose (WCAG 2.1)",
+      "level": "AA",
+      "summary": "Each input field must be able to be determined programmatically, a user should be able for example to autofill inputs",
+      "responsibilities": {
+        "design": false,
+        "development": false,
+        "project_requirements": false
+      },
+      "comments": ""
+    },
+    {
+      "id": "1.3.6",
+      "principle": "Perceivable",
+      "guideline": "Adaptable",
+      "success_criteria": "Identify Purpose (WCAG 2.1)",
+      "level": "AAA",
+      "summary": "Interface components, icons and landmarks (sections, article, main, etc.) must be able to be identified programmatically to help navigation for assistive technologies",
+      "responsibilities": {
+        "design": false,
+        "development": false,
+        "project_requirements": false
+      },
+      "comments": ""
+    },
+    {
+      "id": "1.4.1",
+      "principle": "Perceivable",
+      "guideline": "Distinguishable",
+      "success_criteria": "Use of Colour",
+      "level": "A",
+      "summary": "Don’t use presentation that relies solely on colour",
+      "responsibilities": {
+        "design": true,
+        "development": false,
+        "project_requirements": false
+      },
+      "comments": ""
+    },
+    {
+      "id": "1.4.2",
+      "principle": "Perceivable",
+      "guideline": "Distinguishable",
+      "success_criteria": "Audio Control",
+      "level": "A",
+      "summary": "Don’t play audio automatically",
+      "responsibilities": {
+        "design": false,
+        "development": true,
+        "project_requirements": true
+      },
+      "comments": ""
+    },
+    {
+      "id": "1.4.3",
+      "principle": "Perceivable",
+      "guideline": "Distinguishable",
+      "success_criteria": "Contrast (Minimum)",
+      "level": "AA",
+      "summary": "Contrast ratio between text and background is at least 4.5:1",
+      "responsibilities": {
+        "design": true,
+        "development": false,
+        "project_requirements": false
+      },
+      "comments": ""
+    },
+    {
+      "id": "1.4.4",
+      "principle": "Perceivable",
+      "guideline": "Distinguishable",
+      "success_criteria": "Resize Text",
+      "level": "AA",
+      "summary": "Text can be resized to 200% without loss of content or function",
+      "responsibilities": {
+        "design": true,
+        "development": true,
+        "project_requirements": true
+      },
+      "comments": ""
+    },
+    {
+      "id": "1.4.5",
+      "principle": "Perceivable",
+      "guideline": "Distinguishable",
+      "success_criteria": "Images of Text",
+      "level": "AA",
+      "summary": "Don’t use images of text",
+      "responsibilities": {
+        "design": true,
+        "development": true,
+        "project_requirements": true
+      },
+      "comments": ""
+    },
+    {
+      "id": "1.4.6",
+      "principle": "Perceivable",
+      "guideline": "Distinguishable",
+      "success_criteria": "Contrast (Enhanced)",
+      "level": "AAA",
+      "summary": "Contrast ratio between text and background is at least 7:1",
+      "responsibilities": {
+        "design": true,
+        "development": false,
+        "project_requirements": true
+      },
+      "comments": ""
+    },
+    {
+      "id": "1.4.7",
+      "principle": "Perceivable",
+      "guideline": "Distinguishable",
+      "success_criteria": "Low or No Background Audio",
+      "level": "AAA",
+      "summary": "Audio is clear for listeners to hear",
+      "responsibilities": {
+        "design": false,
+        "development": false,
+        "project_requirements": false
+      },
+      "comments": ""
+    },
+    {
+      "id": "1.4.8",
+      "principle": "Perceivable",
+      "guideline": "Distinguishable",
+      "success_criteria": "Visual Presentation",
+      "level": "AAA",
+      "summary": "Offer users a range of presentation options",
+      "responsibilities": {
+        "design": false,
+        "development": false,
+        "project_requirements": false
+      },
+      "comments": ""
+    },
+    {
+      "id": "1.4.9",
+      "principle": "Perceivable",
+      "guideline": "Distinguishable",
+      "success_criteria": "Images of Text (No Exception)",
+      "level": "AAA",
+      "summary": "Don’t use images of text",
+      "responsibilities": {
+        "design": false,
+        "development": false,
+        "project_requirements": false
+      },
+      "comments": ""
+    },
+    {
+      "id": "1.4.10",
+      "principle": "Perceivable",
+      "guideline": "Distinguishable",
+      "success_criteria": "Reflow (WCAG 2.1)",
+      "level": "AA",
+      "summary": "User must be able to browse a website using a 320 pixel wide screen without having to scroll horizontally (There are some exceptions)",
+      "responsibilities": {
+        "design": true,
+        "development": true,
+        "project_requirements": false
+      },
+      "comments": ""
+    },
+    {
+      "id": "1.4.11",
+      "principle": "Perceivable",
+      "guideline": "Distinguishable",
+      "success_criteria": "Non-Text Contrast  (WCAG 2.1)",
+      "level": "AA",
+      "summary": "Extend color contrast of at least 3:1 to non-text content such as infographics, diagrams, states, etc.",
+      "responsibilities": {
+        "design": true,
+        "development": false,
+        "project_requirements": false
+      },
+      "comments": ""
+    },
+    {
+      "id": "1.4.12",
+      "principle": "Perceivable",
+      "guideline": "Distinguishable",
+      "success_criteria": "Text Spacing  (WCAG 2.1)",
+      "level": "AA",
+      "summary": "Changing text style properties shouldn't break the page (line height, spacing after paragraph, letter spacing, word spacing)",
+      "responsibilities": {
+        "design": false,
+        "development": true,
+        "project_requirements": false
+      },
+      "comments": ""
+    },
+    {
+      "id": "1.4.13",
+      "principle": "Perceivable",
+      "guideline": "Distinguishable",
+      "success_criteria": "Content on Hover or Focus  (WCAG 2.1)",
+      "level": "AA",
+      "summary": "Elements that are being shown on focus or hover (skip navigation, tooltip) should be dismissible(Esc), hoverable, persistent",
+      "responsibilities": {
+        "design": false,
+        "development": true,
+        "project_requirements": false
+      },
+      "comments": ""
+    },
+    {
+      "id": "2.1.1",
+      "principle": "Operable",
+      "guideline": "Keyboard Accessible",
+      "success_criteria": "Keyboard",
+      "level": "A",
+      "summary": "Ensuring keyboard control for all functionality",
+      "responsibilities": {
+        "design": false,
+        "development": true,
+        "project_requirements": true
+      },
+      "comments": ""
+    },
+    {
+      "id": "2.1.2",
+      "principle": "Operable",
+      "guideline": "Keyboard Accessible",
+      "success_criteria": "No Keyboard Trap",
+      "level": "A",
+      "summary": "Ensuring that users are not trapped in content",
+      "responsibilities": {
+        "design": false,
+        "development": true,
+        "project_requirements": true
+      },
+      "comments": ""
+    },
+    {
+      "id": "2.1.3",
+      "principle": "Operable",
+      "guideline": "Keyboard Accessible",
+      "success_criteria": "Keyboard (No Exception)",
+      "level": "AAA",
+      "summary": "Same 2.1.1, but with no exceptions allowed",
+      "responsibilities": {
+        "design": false,
+        "development": true,
+        "project_requirements": false
+      },
+      "comments": ""
+    },
+    {
+      "id": "2.1.4",
+      "principle": "Operable",
+      "guideline": "Keyboard Accessible",
+      "success_criteria": "Character Key Shortcuts (WCAG 2.1)",
+      "level": "A",
+      "summary": "Providing a mechanism to allow users to remap or turn off character key shortcuts",
+      "responsibilities": {
+        "design": false,
+        "development": false,
+        "project_requirements": false
+      },
+      "comments": ""
+    },
+    {
+      "id": "2.2.1",
+      "principle": "Operable",
+      "guideline": "Enough Time",
+      "success_criteria": "Timing Adjustable",
+      "level": "A",
+      "summary": "Time limits have user controls",
+      "responsibilities": {
+        "design": false,
+        "development": true,
+        "project_requirements": true
+      },
+      "comments": "session timeout"
+    },
+    {
+      "id": "2.2.2",
+      "principle": "Operable",
+      "guideline": "Enough Time",
+      "success_criteria": "Pause, Stop, Hide",
+      "level": "A",
+      "summary": "Provide user controls for moving content",
+      "responsibilities": {
+        "design": false,
+        "development": true,
+        "project_requirements": true
+      },
+      "comments": ""
+    },
+    {
+      "id": "2.2.3",
+      "principle": "Operable",
+      "guideline": "Enough Time",
+      "success_criteria": "No Timing",
+      "level": "AAA",
+      "summary": "No time limits",
+      "responsibilities": {
+        "design": false,
+        "development": false,
+        "project_requirements": false
+      },
+      "comments": ""
+    },
+    {
+      "id": "2.2.4",
+      "principle": "Operable",
+      "guideline": "Enough Time",
+      "success_criteria": "Interruptions",
+      "level": "AAA",
+      "summary": "Don’t interrupt users",
+      "responsibilities": {
+        "design": false,
+        "development": false,
+        "project_requirements": false
+      },
+      "comments": ""
+    },
+    {
+      "id": "2.2.5",
+      "principle": "Operable",
+      "guideline": "Enough Time",
+      "success_criteria": "Re-authenticating",
+      "level": "AAA",
+      "summary": "Save user data when re-authenticating",
+      "responsibilities": {
+        "design": false,
+        "development": false,
+        "project_requirements": false
+      },
+      "comments": ""
+    },
+    {
+      "id": "2.2.6",
+      "principle": "Operable",
+      "guideline": "Enough Time",
+      "success_criteria": "Timeouts  (WCAG 2.1)",
+      "level": "AAA",
+      "summary": "Users should be warned if user inactivity could cause data loss, unless data is preserved for more than 20h",
+      "responsibilities": {
+        "design": false,
+        "development": false,
+        "project_requirements": false
+      },
+      "comments": ""
+    },
+    {
+      "id": "2.3.1",
+      "principle": "Operable",
+      "guideline": "Seizures and Physical Reactions",
+      "success_criteria": "Three Flashes or Below",
+      "level": "A",
+      "summary": "No content flashes more than three times per second",
+      "responsibilities": {
+        "design": false,
+        "development": true,
+        "project_requirements": false
+      },
+      "comments": ""
+    },
+    {
+      "id": "2.3.2",
+      "principle": "Operable",
+      "guideline": "Seizures and Physical Reactions",
+      "success_criteria": "Three Flashes",
+      "level": "AAA",
+      "summary": "No content flashes more than three times per second",
+      "responsibilities": {
+        "design": false,
+        "development": true,
+        "project_requirements": false
+      },
+      "comments": ""
+    },
+    {
+      "id": "2.3.3",
+      "principle": "Operable",
+      "guideline": "Seizures and Physical Reactions",
+      "success_criteria": "Animation from Interactions  (WCAG 2.1)",
+      "level": "AAA",
+      "summary": "Motion animation triggered by interaction can be disabled",
+      "responsibilities": {
+        "design": false,
+        "development": true,
+        "project_requirements": false
+      },
+      "comments": ""
+    },
+    {
+      "id": "2.4.1",
+      "principle": "Operable",
+      "guideline": "Navigable",
+      "success_criteria": "Bypass Blocks",
+      "level": "A",
+      "summary": "Provide a ‘Skip to Content’ link",
+      "responsibilities": {
+        "design": true,
+        "development": true,
+        "project_requirements": true
+      },
+      "comments": ""
+    },
+    {
+      "id": "2.4.2",
+      "principle": "Operable",
+      "guideline": "Navigable",
+      "success_criteria": "Page Titled",
+      "level": "A",
+      "summary": "Use helpful and clear page titles",
+      "responsibilities": {
+        "design": true,
+        "development": false,
+        "project_requirements": true
+      },
+      "comments": ""
+    },
+    {
+      "id": "2.4.3",
+      "principle": "Operable",
+      "guideline": "Navigable",
+      "success_criteria": "Focus Order",
+      "level": "A",
+      "summary": "Logical order. When users navigate sequentially through content, they encounter information in an order that is consistent with the meaning of the content and can be operated from the keyboard",
+      "responsibilities": {
+        "design": true,
+        "development": true,
+        "project_requirements": true
+      },
+      "comments": ""
+    },
+    {
+      "id": "2.4.4",
+      "principle": "Operable",
+      "guideline": "Navigable",
+      "success_criteria": "Link Purpose (In Context)",
+      "level": "A",
+      "summary": "Every link’s purpose is clear from its context",
+      "responsibilities": {
+        "design": true,
+        "development": true,
+        "project_requirements": true
+      },
+      "comments": ""
+    },
+    {
+      "id": "2.4.5",
+      "principle": "Operable",
+      "guideline": "Navigable",
+      "success_criteria": "Multiple Ways",
+      "level": "AA",
+      "summary": "Offer several ways to find pages",
+      "responsibilities": {
+        "design": true,
+        "development": false,
+        "project_requirements": true
+      },
+      "comments": ""
+    },
+    {
+      "id": "2.4.6",
+      "principle": "Operable",
+      "guideline": "Navigable",
+      "success_criteria": "Headings and Labels",
+      "level": "AA",
+      "summary": "Use clear headings and labels",
+      "responsibilities": {
+        "design": true,
+        "development": false,
+        "project_requirements": true
+      },
+      "comments": ""
+    },
+    {
+      "id": "2.4.7",
+      "principle": "Operable",
+      "guideline": "Navigable",
+      "success_criteria": "Focus Visible",
+      "level": "AA",
+      "summary": "Ensure keyboard focus is visible and clear",
+      "responsibilities": {
+        "design": false,
+        "development": true,
+        "project_requirements": true
+      },
+      "comments": ""
+    },
+    {
+      "id": "2.4.8",
+      "principle": "Operable",
+      "guideline": "Navigable",
+      "success_criteria": "Location",
+      "level": "AAA",
+      "summary": "Let users know where they are",
+      "responsibilities": {
+        "design": true,
+        "development": false,
+        "project_requirements": false
+      },
+      "comments": ""
+    },
+    {
+      "id": "2.4.9",
+      "principle": "Operable",
+      "guideline": "Navigable",
+      "success_criteria": "Link Purpose (Link Only)",
+      "level": "AAA",
+      "summary": "Every link’s purpose is clear from its text",
+      "responsibilities": {
+        "design": true,
+        "development": true,
+        "project_requirements": false
+      },
+      "comments": ""
+    },
+    {
+      "id": "2.4.10",
+      "principle": "Operable",
+      "guideline": "Navigable",
+      "success_criteria": "Section Headings",
+      "level": "AAA",
+      "summary": "Section headings are used to organize the content.",
+      "responsibilities": {
+        "design": true,
+        "development": true,
+        "project_requirements": false
+      },
+      "comments": ""
+    },
+    {
+      "id": "2.5.1",
+      "principle": "Operable",
+      "guideline": "Input Modalities",
+      "success_criteria": "Pointer Gestures (WCAG 2.1)",
+      "level": "A",
+      "summary": "Complex gesture (Pinch, zooming, swiping) should have a simpler gesture alternative (Tap, double taps, long press)",
+      "responsibilities": {
+        "design": false,
+        "development": true,
+        "project_requirements": true
+      },
+      "comments": ""
+    },
+    {
+      "id": "2.5.2",
+      "principle": "Operable",
+      "guideline": "Input Modalities",
+      "success_criteria": "Pointer Cancellation  (WCAG 2.1)",
+      "level": "A",
+      "summary": "When using single pointer events, one of the following should be true, No Down-Event, Abort or Undo, Up Reversal, Essential",
+      "responsibilities": {
+        "design": false,
+        "development": true,
+        "project_requirements": true
+      },
+      "comments": ""
+    },
+    {
+      "id": "2.5.3",
+      "principle": "Operable",
+      "guideline": "Input Modalities",
+      "success_criteria": "Label in Name (WCAG 2.1)",
+      "level": "A",
+      "summary": "Text in buttons or label should be readable by assistant technologies and can be used with Text-to-speech",
+      "responsibilities": {
+        "design": false,
+        "development": true,
+        "project_requirements": true
+      },
+      "comments": ""
+    },
+    {
+      "id": "2.5.4",
+      "principle": "Operable",
+      "guideline": "Input Modalities",
+      "success_criteria": "Motion Actuation  (WCAG 2.1)",
+      "level": "A",
+      "summary": "Functionalities trigger by moving the device should have a fallback without (Eg some apps use shake to undo)",
+      "responsibilities": {
+        "design": true,
+        "development": false,
+        "project_requirements": false
+      },
+      "comments": ""
+    },
+    {
+      "id": "2.5.5",
+      "principle": "Operable",
+      "guideline": "Input Modalities",
+      "success_criteria": "Target Size (WCAG 2.1)",
+      "level": "AAA",
+      "summary": "The size of the target for pointer inputs is at least 44 by 44 CSS pixels",
+      "responsibilities": {
+        "design": true,
+        "development": true,
+        "project_requirements": false
+      },
+      "comments": ""
+    },
+    {
+      "id": "2.5.6",
+      "principle": "Operable",
+      "guideline": "Input Modalities",
+      "success_criteria": "Concurrent Input Mechanisms (WCAG 2.1)",
+      "level": "AAA",
+      "summary": "Inputs must to available to use with a different mechanism (Mouse, keyboard, stylus, touch, voice)",
+      "responsibilities": {
+        "design": false,
+        "development": true,
+        "project_requirements": false
+      },
+      "comments": ""
+    },
+    {
+      "id": "3.1.1",
+      "principle": "Understandable",
+      "guideline": "Readable",
+      "success_criteria": "Language of Page",
+      "level": "A",
+      "summary": "Page has a language assigned",
+      "responsibilities": {
+        "design": false,
+        "development": true,
+        "project_requirements": true
+      },
+      "comments": ""
+    },
+    {
+      "id": "3.1.2",
+      "principle": "Understandable",
+      "guideline": "Readable",
+      "success_criteria": "Language of Parts",
+      "level": "AA",
+      "summary": "Tell users when the language on a page changes",
+      "responsibilities": {
+        "design": false,
+        "development": true,
+        "project_requirements": true
+      },
+      "comments": ""
+    },
+    {
+      "id": "3.1.3",
+      "principle": "Understandable",
+      "guideline": "Readable",
+      "success_criteria": "Unusual words",
+      "level": "AAA",
+      "summary": "Explain any strange words",
+      "responsibilities": {
+        "design": true,
+        "development": false,
+        "project_requirements": false
+      },
+      "comments": ""
+    },
+    {
+      "id": "3.1.4",
+      "principle": "Understandable",
+      "guideline": "Readable",
+      "success_criteria": "Abbreviations",
+      "level": "AAA",
+      "summary": "Explain any abbreviations",
+      "responsibilities": {
+        "design": true,
+        "development": false,
+        "project_requirements": false
+      },
+      "comments": ""
+    },
+    {
+      "id": "3.1.5",
+      "principle": "Understandable",
+      "guideline": "Readable",
+      "success_criteria": "Reading Level",
+      "level": "AAA",
+      "summary": "Users with nine years of school can read your content",
+      "responsibilities": {
+        "design": true,
+        "development": false,
+        "project_requirements": false
+      },
+      "comments": ""
+    },
+    {
+      "id": "3.1.6",
+      "principle": "Understandable",
+      "guideline": "Readable",
+      "success_criteria": "Pronunciation",
+      "level": "AAA",
+      "summary": "Explain any words that are hard to pronounce",
+      "responsibilities": {
+        "design": true,
+        "development": false,
+        "project_requirements": false
+      },
+      "comments": ""
+    },
+    {
+      "id": "3.2.1",
+      "principle": "Understandable",
+      "guideline": "On Focus",
+      "success_criteria": "On Focus",
+      "level": "A",
+      "summary": "Elements do not change when they receive focus",
+      "responsibilities": {
+        "design": false,
+        "development": true,
+        "project_requirements": true
+      },
+      "comments": ""
+    },
+    {
+      "id": "3.2.2",
+      "principle": "Understandable",
+      "guideline": "Predictable",
+      "success_criteria": "On Input",
+      "level": "A",
+      "summary": "Elements do not change when they receive input",
+      "responsibilities": {
+        "design": false,
+        "development": true,
+        "project_requirements": true
+      },
+      "comments": ""
+    },
+    {
+      "id": "3.2.3",
+      "principle": "Understandable",
+      "guideline": "Predictable",
+      "success_criteria": "Consistent Navigation",
+      "level": "AA",
+      "summary": "Use menus consistently",
+      "responsibilities": {
+        "design": true,
+        "development": false,
+        "project_requirements": true
+      },
+      "comments": ""
+    },
+    {
+      "id": "3.2.4",
+      "principle": "Understandable",
+      "guideline": "Predictable",
+      "success_criteria": "Consistent Identification",
+      "level": "AA",
+      "summary": "Use icons and buttons consistently",
+      "responsibilities": {
+        "design": true,
+        "development": false,
+        "project_requirements": true
+      },
+      "comments": ""
+    },
+    {
+      "id": "3.2.5",
+      "principle": "Understandable",
+      "guideline": "Predictable",
+      "success_criteria": "Change on Request",
+      "level": "AAA",
+      "summary": "Don’t change elements on your website until users ask",
+      "responsibilities": {
+        "design": true,
+        "development": true,
+        "project_requirements": false
+      },
+      "comments": ""
+    },
+    {
+      "id": "3.3.1",
+      "principle": "Understandable",
+      "guideline": "Input Assistance",
+      "success_criteria": "Error Identification",
+      "level": "A",
+      "summary": "Clearly identify input errors. Ensure that users are aware that an error has occurred and can determine what is wrong.",
+      "responsibilities": {
+        "design": true,
+        "development": true,
+        "project_requirements": true
+      },
+      "comments": ""
+    },
+    {
+      "id": "3.3.2",
+      "principle": "Understandable",
+      "guideline": "Input Assistance",
+      "success_criteria": "Labels or Instructions",
+      "level": "A",
+      "summary": "Label elements and give instructions",
+      "responsibilities": {
+        "design": true,
+        "development": true,
+        "project_requirements": true
+      },
+      "comments": ""
+    },
+    {
+      "id": "3.3.3",
+      "principle": "Understandable",
+      "guideline": "Input Assistance",
+      "success_criteria": "Error Suggestion",
+      "level": "AA",
+      "summary": "Suggest fixes when users make errors.  Ensure that users receive appropriate suggestions for correction of an input",
+      "responsibilities": {
+        "design": true,
+        "development": true,
+        "project_requirements": true
+      },
+      "comments": ""
+    },
+    {
+      "id": "3.3.4",
+      "principle": "Understandable",
+      "guideline": "Input Assistance",
+      "success_criteria": "Error Prevention (Legal, Financial, Data)",
+      "level": "AA",
+      "summary": "Reduce the risk of input errors for sensitive data",
+      "responsibilities": {
+        "design": true,
+        "development": true,
+        "project_requirements": true
+      },
+      "comments": ""
+    },
+    {
+      "id": "3.3.5",
+      "principle": "Understandable",
+      "guideline": "Input Assistance",
+      "success_criteria": "Help",
+      "level": "AAA",
+      "summary": "Provide detailed help and instructions",
+      "responsibilities": {
+        "design": true,
+        "development": false,
+        "project_requirements": false
+      },
+      "comments": ""
+    },
+    {
+      "id": "3.3.6",
+      "principle": "Understandable",
+      "guideline": "Input Assistance",
+      "success_criteria": "Error Prevention (All)",
+      "level": "AAA",
+      "summary": "Reduce the risk of all input errors",
+      "responsibilities": {
+        "design": true,
+        "development": false,
+        "project_requirements": false
+      },
+      "comments": ""
+    },
+    {
+      "id": "4.1.2",
+      "principle": "Robust",
+      "guideline": "Compatible",
+      "success_criteria": "Name, Role, Value",
+      "level": "A",
+      "summary": "Build all elements for accessibility",
+      "responsibilities": {
+        "design": true,
+        "development": true,
+        "project_requirements": true
+      },
+      "comments": ""
+    },
+    {
+      "id": "4.1.3",
+      "principle": "Robust",
+      "guideline": "Compatible",
+      "success_criteria": "Status Messages (WCAG 2.1)",
+      "level": "AA",
+      "summary": "Content that is updated dynamically must be notified to users of assistive technologies without getting visual focus",
+      "responsibilities": {
+        "design": false,
+        "development": true,
+        "project_requirements": true
+      },
+      "comments": ""
+    },
+    {
+      "id": "2.4.11",
+      "principle": "Operable",
+      "guideline": "Navigable",
+      "success_criteria": "Focus Not Obscured (Minimum)",
+      "level": "A",
+      "summary": "When a UI component receives keyboard focus, at least part of it is not hidden by author-created content",
+      "responsibilities": {
+        "design": true,
+        "development": true,
+        "project_requirements": true
+      },
+      "comments": "New in WCAG 2.2"
+    },
+    {
+      "id": "2.5.7",
+      "principle": "Operable",
+      "guideline": "Input Modalities",
+      "success_criteria": "Dragging Movements",
+      "level": "A",
+      "summary": "All functionality that uses dragging can be achieved with single pointer without dragging, unless essential",
+      "responsibilities": {
+        "design": true,
+        "development": true,
+        "project_requirements": true
+      },
+      "comments": "New in WCAG 2.2"
+    },
+    {
+      "id": "2.5.8",
+      "principle": "Operable",
+      "guideline": "Input Modalities",
+      "success_criteria": "Target Size (Minimum)",
+      "level": "AA",
+      "summary": "Touch targets are at least 24x24 CSS pixels, with spacing exceptions",
+      "responsibilities": {
+        "design": true,
+        "development": true,
+        "project_requirements": false
+      },
+      "comments": "New in WCAG 2.2"
+    },
+    {
+      "id": "3.2.6",
+      "principle": "Understandable",
+      "guideline": "Predictable",
+      "success_criteria": "Consistent Help",
+      "level": "A",
+      "summary": "Help mechanisms repeated on multiple pages occur in same relative order",
+      "responsibilities": {
+        "design": true,
+        "development": false,
+        "project_requirements": true
+      },
+      "comments": "New in WCAG 2.2"
+    },
+    {
+      "id": "3.3.7",
+      "principle": "Understandable",
+      "guideline": "Input Assistance",
+      "success_criteria": "Redundant Entry",
+      "level": "A",
+      "summary": "Information previously entered by user is auto-populated or available to select",
+      "responsibilities": {
+        "design": false,
+        "development": true,
+        "project_requirements": true
+      },
+      "comments": "New in WCAG 2.2"
+    },
+    {
+      "id": "3.3.8",
+      "principle": "Understandable",
+      "guideline": "Input Assistance",
+      "success_criteria": "Accessible Authentication (Minimum)",
+      "level": "AA",
+      "summary": "Cognitive function tests not required unless alternatives provided or object recognition",
+      "responsibilities": {
+        "design": false,
+        "development": true,
+        "project_requirements": true
+      },
+      "comments": "New in WCAG 2.2"
+    },
+    {
+      "id": "2.4.12",
+      "principle": "Operable",
+      "guideline": "Navigable",
+      "success_criteria": "Focus Not Obscured (Enhanced)",
+      "level": "AAA",
+      "summary": "When a UI component receives keyboard focus, no part of it is hidden by author-created content",
+      "responsibilities": {
+        "design": true,
+        "development": true,
+        "project_requirements": false
+      },
+      "comments": "New in WCAG 2.2"
+    },
+    {
+      "id": "2.4.13",
+      "principle": "Operable",
+      "guideline": "Navigable",
+      "success_criteria": "Focus Appearance",
+      "level": "AAA",
+      "summary": "Focus indicator has minimum size of 2px perimeter and 3:1 contrast ratio",
+      "responsibilities": {
+        "design": true,
+        "development": true,
+        "project_requirements": false
+      },
+      "comments": "New in WCAG 2.2"
+    },
+    {
+      "id": "3.3.9",
+      "principle": "Understandable",
+      "guideline": "Input Assistance",
+      "success_criteria": "Accessible Authentication (Enhanced)",
+      "level": "AAA",
+      "summary": "Cognitive function tests not required for authentication except object/personal content recognition",
+      "responsibilities": {
+        "design": false,
+        "development": true,
+        "project_requirements": false
+      },
+      "comments": "New in WCAG 2.2"
+    }
+  ],
+  "testing_procedures": [
+    {
+      "id": "1.1.1",
+      "success_criteria": "Non-text Content",
+      "level": "A",
+      "guideline": "Text Alternatives",
+      "test_method": "Set screen reader focus to each non-text content element including images, buttons, form controls, iframes, and audio/video. \nCheck that accessible name spoken is a short, accurate description of the non-text content, but does not identify its type. E.g. a play button should have the label “Play” but not its role “button” included in the label. Check that you don’t hear output similar to “Play Button, button”. \nCheck that role spoken correctly describes element’s state, behavior, or usage. E.g. check that buttons have a button role and images have an image role. \nCheck that any required accessible description information is also spoken.\nCheck that adjustable elements like sliders have the correct value like “50%”. Adjust the values and check that the screen reader speaks the correct value.\nCheck that purely decorative images are not focusable by the keyboard or screen reader. \nCheck that that custom views such as star rating widgets speak an accurate label."
+    },
+    {
+      "id": "1.2.1",
+      "success_criteria": "Audio-only and Video-only (Prerecorded)",
+      "level": "A",
+      "guideline": "Time-based Media",
+      "test_method": "Check that information presented in audio-only format has a text transcript.\nCheck that information presented in video-only format has a either an audio equivalent or a text transcript."
+    },
+    {
+      "id": "1.2.2",
+      "success_criteria": "Captions (Prerecorded)",
+      "level": "A",
+      "guideline": "Time-based Media",
+      "test_method": "Enable closed captions under Settings.\nPlay videos. \nCheck that videos include synchronized captions.\nCheck that captions are accurate."
+    },
+    {
+      "id": "1.2.3",
+      "success_criteria": "Audio Description or Media Alternative (Prerecorded)",
+      "level": "A",
+      "guideline": "Time-based Media",
+      "test_method": "Play videos. \nLanguage button should appear if closed audio descriptions track included.\nActivate Language button, select audio descriptions track.\nCheck that audio descriptions are accurate."
+    },
+    {
+      "id": "1.2.4",
+      "success_criteria": "Captions (Live)",
+      "level": "AA",
+      "guideline": "Time-based Media",
+      "test_method": "Check that live captions are provided for all real-time audio/video presentations."
+    },
+    {
+      "id": "1.2.5",
+      "success_criteria": "Audio Description (Prerecorded)",
+      "level": "AA",
+      "guideline": "Time-based Media",
+      "test_method": "Play videos. \nLanguage button should appear if closed audio descriptions track included.\nActivate Language button, select audio descriptions track.\nCheck that audio descriptions are accurate."
+    },
+    {
+      "id": "1.3.1",
+      "success_criteria": "Info and Relationships",
+      "level": "A",
+      "guideline": "Adaptable",
+      "test_method": "Navigate through all semantic HTML elements using screen reader gestures or keyboard commands. \nSet screen reader focus to Headings, Lists, Tables and check that they correctly coded with semantic HTML.\nIf you cannot set focus to an item that appears to be a Heading element when using heading quick navigation commands then is is not coded with semantic HTML.\nNavigate between row and columns inside data table cells with the screen reader and check that the correct row and column headers are spoken.\nCheck that the <legend> text is spoken for each <input> within a <fieldset> when the screen reader sets focus to an input in the group.\nUse Landmark navigation to check that you can jump between the visually distinct Header, Navigation, Main Content, and Footer regions of the page."
+    },
+    {
+      "id": "1.3.2",
+      "success_criteria": "Meaningful Sequence",
+      "level": "A",
+      "guideline": "Adaptable",
+      "test_method": "Swipe through all elements on the screen from top to bottom and check that the reading order matches the visual presentation order.\nCheck that content is read in an order that does not disrupt the meaning."
+    },
+    {
+      "id": "1.3.3",
+      "success_criteria": "Sensory Characteristics",
+      "level": "A",
+      "guideline": "Adaptable",
+      "test_method": "Check that instructions provided for using the app do not rely solely on visual or audio-only information."
+    },
+    {
+      "id": "1.4.1",
+      "success_criteria": "Use of Color",
+      "level": "A",
+      "guideline": "Distinguishable",
+      "test_method": "Set device to use grayscale colors only in accessibility settings.\nCheck that color alone is not used as the only means of conveying information."
+    },
+    {
+      "id": "1.4.2",
+      "success_criteria": "Audio Control",
+      "level": "A",
+      "guideline": "Distinguishable",
+      "test_method": "Check that any audio that plays automatically for more than 3 seconds has a method to pause or stop the audio, or a method to control its audio volume independent from the system volume."
+    },
+    {
+      "id": "1.4.3",
+      "success_criteria": "Contrast (Minimum)",
+      "level": "AA",
+      "guideline": "Distinguishable",
+      "test_method": "Use a color contrast analyzer testing tool to check that text is not too light when used on a light background or too dark when used on a dark background. \nLogos and text that are purely decorative do not need contrast testing. \nDisabled controls don't need to meet contrast requirements."
+    },
+    {
+      "id": "1.4.4",
+      "success_criteria": "Resize text",
+      "level": "AA",
+      "guideline": "Distinguishable",
+      "test_method": "Pinch-to-zoom should be able to increase the text size.\nIf pinch-to-zoom is not working then another method must be available to resizes text.\nEnable Large Text sizes under accessibility settings and test native app to check that text can enlarge."
+    },
+    {
+      "id": "1.4.5",
+      "success_criteria": "Images of Text",
+      "level": "AA",
+      "guideline": "Distinguishable",
+      "test_method": "Images of text should not be used.\nSet focus to any images of text. \nCheck that all images of text have the exact, correct text alternative."
+    },
+    {
+      "id": "2.1.1",
+      "success_criteria": "Keyboard",
+      "level": "A",
+      "guideline": "Keyboard Accessible",
+      "test_method": "For iOS, navigate the app and activate all user interface controls using VoiceOver and a Keyboard.\nFor Android, navigate the app and activate all user interface controls using a Keyboard only without TalkBack running."
+    },
+    {
+      "id": "2.1.2",
+      "success_criteria": "No Keyboard Trap",
+      "level": "A",
+      "guideline": "Keyboard Accessible",
+      "test_method": "Navigate through all elements in the app and check that focus is never trapped."
+    },
+    {
+      "id": "2.2.1",
+      "success_criteria": "Timing Adjustable",
+      "level": "A",
+      "guideline": "Enough Time",
+      "test_method": "Navigate through the app but leave the app idle for a period of time until the time-out activates. \nCheck that there is a warning before you are kicked out and that you are allowed to extend your session before being logged out. Or check that you can adjust the time limit settings to at least 10 times longer than the default. \nTime out extensions do not apply to real time exceptions like auctions or timed tests."
+    },
+    {
+      "id": "2.2.2",
+      "success_criteria": "Pause, Stop, Hide",
+      "level": "A",
+      "guideline": "Enough Time",
+      "test_method": "Check that moving, blinking, scrolling, or auto-updating content is able to be paused, stopped, or hidden."
+    },
+    {
+      "id": "2.3.1",
+      "success_criteria": "Three Flashes or Below Threshold",
+      "level": "A",
+      "guideline": "Seizures",
+      "test_method": "Check that the app has no elements that flash more than three times per second."
+    },
+    {
+      "id": "2.4.1",
+      "success_criteria": "Bypass Blocks",
+      "level": "A",
+      "guideline": "Navigable",
+      "test_method": "Check that there is a method such as a skip link or WAI-ARIA landmarks that allow the user to bypass blocks of content that are repeated on multiple screens.\nUse Landmarks quick navigation commands to bypass blocks of content. Check that you can use landmarks to skip over the navigation directly to the main content."
+    },
+    {
+      "id": "2.4.2",
+      "success_criteria": "Page Titled",
+      "level": "A",
+      "guideline": "Navigable",
+      "test_method": "Check that each screen in the app has a useful & unique title."
+    },
+    {
+      "id": "2.4.3",
+      "success_criteria": "Focus Order",
+      "level": "A",
+      "guideline": "Navigable",
+      "test_method": "Navigate through all elements in the app using gestures or the keyboard and check that they are read in the correct order."
+    },
+    {
+      "id": "2.4.4",
+      "success_criteria": "Link Purpose (In Context)",
+      "level": "A",
+      "guideline": "Navigable",
+      "test_method": "Set focus to every link and button, check that its accessible name spoken to the screen reader makes sense.\nCheck that the purpose of each link or button can be determined based on its label text alone or its label text together with its programmatically determined link context."
+    },
+    {
+      "id": "2.4.5",
+      "success_criteria": "Multiple Ways",
+      "level": "AA",
+      "guideline": "Navigable",
+      "test_method": "Check that there are multiple ways to find content within an app by using a search feature, table of contents, site map, or linking to all parts of app from the home page."
+    },
+    {
+      "id": "2.4.6",
+      "success_criteria": "Headings and Labels",
+      "level": "AA",
+      "guideline": "Navigable",
+      "test_method": "Check that headings used for organizing content and labels for user interface controls and form inputs describe their topic or purpose."
+    },
+    {
+      "id": "2.4.7",
+      "success_criteria": "Focus Visible",
+      "level": "AA",
+      "guideline": "Navigable",
+      "test_method": "Navigate through all elements of the app using a keyboard and check that focus is always visible. \nCheck that the currently focused element is always visible on screen."
+    },
+    {
+      "id": "3.1.1",
+      "success_criteria": "Language of Page",
+      "level": "A",
+      "guideline": "Readable",
+      "test_method": "Set screen reader speech settings to default language.\nSet focus to page content and the screen reader should speak text in the proper speech language synthesizer."
+    },
+    {
+      "id": "3.1.2",
+      "success_criteria": "Language of Parts",
+      "level": "AA",
+      "guideline": "Readable",
+      "test_method": "Set screen reader speech settings to default language.\nSet focus to parts of the page with a different language and the screen reader should speak text in the proper speech language synthesizer, e.g. lang=\"es\" will speak with a Spanish screen reader voice rather than English."
+    },
+    {
+      "id": "3.2.1",
+      "success_criteria": "On Focus",
+      "level": "A",
+      "guideline": "Predictable",
+      "test_method": "Set focus to all components of the app and check that when a component receives focus that it does not cause a change of context."
+    },
+    {
+      "id": "3.2.2",
+      "success_criteria": "On Input",
+      "level": "A",
+      "guideline": "Predictable",
+      "test_method": "Change the settings of all user interface components and check that does not automatically cause of a change of context unless the user has been warned of that behavior before using the component."
+    },
+    {
+      "id": "3.2.3",
+      "success_criteria": "Consistent Navigation",
+      "level": "AA",
+      "guideline": "Predictable",
+      "test_method": "Navigate through all screens of the app and check that the app’s internal navigation occurs in the same relative order and is consistent."
+    },
+    {
+      "id": "3.2.4",
+      "success_criteria": "Consistent Identification",
+      "level": "AA",
+      "guideline": "Predictable",
+      "test_method": "Navigate through all screens of the app and check that the user interface components are identified consistently."
+    },
+    {
+      "id": "3.3.1",
+      "success_criteria": "Error Identification",
+      "level": "A",
+      "guideline": "Input Assistance",
+      "test_method": "Submit forms in the app using blank and incorrect data.\nCheck that errors are identified, described in text, and spoken by the screen reader.\nSet focus to inputs that have errors and check that the error messages are spoken by the screen reader."
+    },
+    {
+      "id": "3.3.2",
+      "success_criteria": "Labels or Instructions",
+      "level": "A",
+      "guideline": "Input Assistance",
+      "test_method": "Set focus to each text input control and check that the spoken label provides instructions for user input.\nSet focus to form controls that require specifically formatted input and check that all instructions for correctly entering the text are spoken by the screen reader.\nCheck that labels and instructions are always visible to the sighted user also."
+    },
+    {
+      "id": "3.3.3",
+      "success_criteria": "Error Suggestion",
+      "level": "AA",
+      "guideline": "Input Assistance",
+      "test_method": "Set focus to an input that has been incorrectly formatted or was left blank and is in error. \nCheck that an example or suggestion of a correct input and its format is visible and spoken by the screen reader."
+    },
+    {
+      "id": "3.3.4",
+      "success_criteria": "Error Prevention (Legal, Financial, Data)",
+      "level": "AA",
+      "guideline": "Input Assistance",
+      "test_method": "This success criterion applies to apps with actions that cause legal commitments, financial transactions, that modify or delete user-controllable data in data storage systems, or submits user test responses. \nTest the app to check that submissions are reversible, that the user can check the date for input errors with a chance to correct them, or that information is reviewed, confirmed, and corrected before finalizing the submission."
+    },
+    {
+      "id": "4.1.2",
+      "success_criteria": "Name, Role, Value",
+      "level": "A",
+      "guideline": "Compatible",
+      "test_method": "Set focus to all user interface components including form elements, links, and JavaScript widgets and check that the accessible name spoken makes sense, and that the element has correct role, state, and value. \nCheck that the role spoken (link, button, etc.) correctly matches the functionality of the element.\nCheck that the state of the element is spoken. E.g. expanded/collapsed/dimmed/disabled.\nCheck that the value of an adjustable element is accurate."
+    },
+    {
+      "id": "2.4.11",
+      "success_criteria": "Focus Not Obscured (Minimum)",
+      "level": "A",
+      "guideline": "Navigable",
+      "test_method": "Navigate through all focusable elements using Tab key.\nCheck that when an element receives focus, at least part of it remains visible.\nTest with common overlapping elements like sticky headers, cookie banners, chat widgets, and footers.\nVerify that no author-created content completely hides the focused element.\nTest on both desktop and mobile viewports.\nCheck that user can still interact with partially visible focused elements."
+    },
+    {
+      "id": "2.5.7",
+      "success_criteria": "Dragging Movements",
+      "level": "A",
+      "guideline": "Input Modalities",
+      "test_method": "Identify all drag-and-drop functionality (sortable lists, sliders, file uploads, rearrange interfaces).\nFor each drag operation, verify a single-pointer alternative exists (buttons to move up/down, increment/decrement controls).\nTest that alternatives work without requiring dragging gestures.\nCheck that functionality is preserved when using alternatives.\nVerify exceptions: dragging is essential (e.g., freehand drawing) or determined by user agent.\nTest on touch devices and with keyboard-only navigation."
+    },
+    {
+      "id": "2.5.8",
+      "success_criteria": "Target Size (Minimum)",
+      "level": "AA",
+      "guideline": "Input Modalities",
+      "test_method": "Measure all interactive targets (buttons, links, form controls) using developer tools.\nVerify targets are at least 24x24 CSS pixels.\nFor targets smaller than 24x24, check spacing: draw 24px diameter circles centered on each target.\nVerify circles don't overlap other targets.\nCheck exceptions: inline links in sentences, user agent controls, targets where size is essential.\nTest on actual touch devices, not just desktop browsers.\nPay special attention to mobile interfaces and touch-first designs."
+    },
+    {
+      "id": "3.2.6",
+      "success_criteria": "Consistent Help",
+      "level": "A",
+      "guideline": "Predictable",
+      "test_method": "Identify help mechanisms repeated across multiple pages (contact forms, phone numbers, chat widgets, help links, FAQs).\nNavigate through multiple pages that include these help mechanisms.\nVerify help mechanisms appear in same relative order on each page.\nCheck that position relative to other content remains consistent.\nVerify exceptions: changes initiated by user, different page templates.\nTest across different breakpoints and responsive layouts.\nCheck that visual position consistency matches DOM order."
+    },
+    {
+      "id": "3.3.7",
+      "success_criteria": "Redundant Entry",
+      "level": "A",
+      "guideline": "Input Assistance",
+      "test_method": "Map out multi-step processes (checkout, registration, multi-page forms).\nIdentify information requested multiple times within same process.\nVerify that previously entered information is either auto-populated or available for selection.\nTest that data persists across form steps.\nCheck exceptions: re-entry essential for security, previous data no longer valid, user explicitly requests re-entry.\nTest form autofill functionality.\nVerify user can modify auto-populated data if needed."
+    },
+    {
+      "id": "3.3.8",
+      "success_criteria": "Accessible Authentication (Minimum)",
+      "level": "AA",
+      "guideline": "Input Assistance",
+      "test_method": "Review all authentication steps (login, password reset, multi-factor authentication).\nIdentify cognitive function tests (remembering passwords, solving puzzles, transcribing distorted text).\nFor each cognitive test, verify at least one of these exists:\n- Alternative method without cognitive test (biometric, email link, SMS code)\n- Mechanism to assist completion (password manager support, paste enabled, show password)\n- Test is object recognition (identifying common objects)\n- Test is personal content (user's uploaded photos)\nTest with password managers to ensure they work properly.\nVerify paste is enabled in password fields."
+    },
+    {
+      "id": "2.4.12",
+      "success_criteria": "Focus Not Obscured (Enhanced)",
+      "level": "AAA",
+      "guideline": "Navigable",
+      "test_method": "Navigate through all focusable elements using Tab key.\nVerify that when element receives focus, the ENTIRE element and its focus indicator are fully visible.\nCheck that NO part of the focused element is hidden by any author-created content.\nTest with sticky headers, footers, modals, popups, and floating elements.\nVerify across different viewport sizes and zoom levels.\nTest that entire focus indicator is visible, not just the element itself.\nThis is stricter than 2.4.11 which allows partial visibility."
+    },
+    {
+      "id": "2.4.13",
+      "success_criteria": "Focus Appearance",
+      "level": "AAA",
+      "guideline": "Navigable",
+      "test_method": "Navigate through interface using keyboard.\nFor each focus indicator, measure:\n- Perimeter thickness (must be at least 2 CSS pixels)\n- Contrast ratio between focused and unfocused states (must be at least 3:1)\nCheck that focus indicator is visible against all background colors.\nVerify focus indicator meets size requirements: either 2px perimeter OR area equivalent to 2px perimeter.\nTest exceptions: user agent default focus that author hasn't modified, background color unchanged by author.\nUse color contrast analyzer tools to verify 3:1 ratio."
+    },
+    {
+      "id": "3.3.9",
+      "success_criteria": "Accessible Authentication (Enhanced)",
+      "level": "AAA",
+      "guideline": "Input Assistance",
+      "test_method": "Review all authentication methods.\nVerify NO cognitive function tests required at any step.\nCheck exceptions (same as 3.3.8 but fewer allowed):\n- Alternative method exists\n- Assistance mechanism provided\n- Object recognition test\n- Personal content test\nNote: This is stricter than 3.3.8 - fewer exceptions allowed.\nTest all authentication paths including password reset, account recovery.\nVerify users never need to transcribe text, solve puzzles, or remember complex information."
+    }
+  ],
+  "resources": [
+    {
+      "name": "Web Content Accessibility Guidelines (WCAG) 2.1",
+      "url": "https://www.w3.org/TR/2018/REC-WCAG21-20180605/",
+      "notes": "Core document"
+    },
+    {
+      "name": "Mobile Accessibility: How WCAG 2.0 and Other W3C/WAI Guidelines Apply to Mobile",
+      "url": "https://www.w3.org/TR/mobile-accessibility-mapping/",
+      "notes": "In case we want to make the mobile accessible as well"
+    },
+    {
+      "name": "Human Interface Design Guidelines",
+      "url": "https://developer.apple.com/design/human-interface-guidelines/accessibility/overview/introduction/",
+      "notes": "This is from Apple, relevant mostly for iOS"
+    },
+    {
+      "name": "Xcode Accessiblity Inspector",
+      "url": "https://developer.apple.com/videos/play/wwdc2019/257/",
+      "notes": "This is from Google, relevant mostly for Android"
+    },
+    {
+      "name": "Accessibility for iOS and tvOS",
+      "url": "https://developer.apple.com/documentation/uikit/accessibility_for_ios_and_tvos",
+      "notes": "iOS stuff, may not apply to us as of now."
+    },
+    {
+      "name": "Material Design Guidelines",
+      "url": "https://material.io/design/usability/accessibility.html",
+      "notes": ""
+    },
+    {
+      "name": "Android Developer Resources",
+      "url": "https://developer.android.com/guide/topics/ui/accessibility",
+      "notes": "Anroid stuff, may not apply to us fully."
+    },
+    {
+      "name": "Accessiblity Guidelines",
+      "url": "http://accessibility.voxmedia.com/",
+      "notes": ""
+    },
+    {
+      "name": "Professional Web Accessibility Auditing Guide",
+      "url": "https://pressbooks.library.ryerson.ca/pwaa/front-matter/preface/",
+      "notes": ""
+    },
+    {
+      "name": "10 Key Guidelines",
+      "url": "https://pressbooks.library.ryerson.ca/pwaa/wp-content/uploads/sites/30/2018/01/10KeyGuidelines.pdf",
+      "notes": ""
+    },
+    {
+      "name": "Introduction to Web Accessibility",
+      "url": "https://pressbooks.library.ryerson.ca/iwacc/front-matter/getting-the-most-out-of-this-book/",
+      "notes": ""
+    },
+    {
+      "name": "Accessibility for Ontarians with Disabilities Act, 2005",
+      "url": "https://www.ontario.ca/laws/regulation/110191#BK8",
+      "notes": "KUDO is global, so this one may not apply at all"
+    },
+    {
+      "name": "--- WCAG 2.2 Additions ---",
+      "url": "",
+      "notes": ""
+    },
+    {
+      "name": "What's New in WCAG 2.2",
+      "url": "https://www.w3.org/WAI/standards-guidelines/wcag/new-in-22/",
+      "notes": "Official W3C overview of 9 new success criteria"
+    },
+    {
+      "name": "Understanding WCAG 2.2",
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/",
+      "notes": "Detailed explanations and examples"
+    },
+    {
+      "name": "WCAG 2.2 Full Specification",
+      "url": "https://www.w3.org/TR/WCAG22/",
+      "notes": "Complete technical standard"
+    }
+  ]
+}
