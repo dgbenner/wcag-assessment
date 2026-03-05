@@ -16,6 +16,18 @@ export function getResponsibilityColor(role) {
   }
 }
 
+export function getPrinciple(criterionId) {
+  if (!criterionId) return ''
+  const prefix = criterionId.split('.')[0]
+  switch (prefix) {
+    case '1': return 'Perceivable'
+    case '2': return 'Operable'
+    case '3': return 'Understandable'
+    case '4': return 'Robust'
+    default: return ''
+  }
+}
+
 export function formatResponsibility(role) {
   switch (role) {
     case 'design': return 'Design'

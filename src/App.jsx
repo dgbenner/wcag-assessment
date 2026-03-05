@@ -54,22 +54,22 @@ export default function App() {
     <div className="min-h-screen bg-gray-50">
       <Header wcagVersion={wcagVersion} />
 
-      <main className="max-w-4xl mx-auto px-6 py-8 space-y-8">
+      <main className="max-w-4xl mx-auto px-6 py-5 space-y-5">
         <div className="flex justify-center">
           <VersionSelector version={wcagVersion} onChange={setWcagVersion} />
         </div>
 
-        <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-6">
+        <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-4">
           <InputForm onSubmit={handleEvaluate} loading={loading} />
         </div>
 
         {error && (
-          <div className="bg-red-50 border border-red-200 rounded-lg p-4" role="alert">
+          <div className="bg-red-50 border border-red-200 rounded-lg p-3" role="alert">
             <p className="text-sm text-red-800">{error}</p>
           </div>
         )}
 
-        <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-6">
+        <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-4">
           <ResultsDisplay results={results} />
         </div>
       </main>
