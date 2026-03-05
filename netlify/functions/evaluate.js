@@ -1,16 +1,10 @@
 import Anthropic from '@anthropic-ai/sdk'
-import { readFileSync } from 'fs'
-import { resolve, dirname } from 'path'
-import { fileURLToPath } from 'url'
-
-const __dirname = dirname(fileURLToPath(import.meta.url))
+import wcag21Data from './data/wcag-2.1.json'
+import wcag22Data from './data/wcag-2.2.json'
 
 function loadWcagData(version) {
-  const filePath = resolve(__dirname, 'data', `wcag-${version}.json`)
-  return JSON.parse(readFileSync(filePath, 'utf-8'))
+  return version === '2.1' ? wcag21Data : wcag22Data
 }
-
-const client = new Anthropic()
 
 export async function handler(event) {
   if (event.httpMethod !== 'POST') {
@@ -45,6 +39,7 @@ export async function handler(event) {
     const systemPrompt = buildSystemPrompt(wcagData)
     const userMessage = await buildUserMessage(inputType, content)
 
+    const client = new Anthropic()
     const response = await client.messages.create({
       model: 'claude-sonnet-4-20250514',
       max_tokens: 4096,
