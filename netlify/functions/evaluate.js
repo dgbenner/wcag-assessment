@@ -91,7 +91,7 @@ Analyze the provided content and identify accessibility issues. For each issue f
 6. Which roles are responsible (design, development, project_requirements)
 
 ## Response Format
-You MUST respond with valid JSON only, no markdown fences, no explanation outside the JSON. Use this exact structure:
+CRITICAL: Your entire response must be a single JSON object. Do NOT include any text, explanation, or commentary before or after the JSON. Do NOT use markdown code fences. Start your response with { and end with }. Use this exact structure:
 {
   "issues": [
     {
@@ -167,12 +167,21 @@ async function buildUserMessage(inputType, content) {
 
 function parseEvaluation(responseText) {
   let text = responseText.trim()
+  // Strip markdown fences
   if (text.startsWith('```')) {
     text = text.replace(/^```(?:json)?\n?/, '').replace(/\n?```$/, '')
   }
+  // Try direct parse first
   try {
     return JSON.parse(text)
   } catch {
+    // Try to extract JSON object from surrounding text
+    const match = text.match(/\{[\s\S]*"issues"\s*:\s*\[[\s\S]*\]\s*[\s\S]*\}/)
+    if (match) {
+      try {
+        return JSON.parse(match[0])
+      } catch {}
+    }
     return { issues: [], summary: text, parseError: true }
   }
 }
