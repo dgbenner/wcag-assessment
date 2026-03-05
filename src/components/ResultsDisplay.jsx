@@ -101,6 +101,12 @@ export default function ResultsDisplay({ results }) {
     })
   }
 
+  const levelCounts = (results.issues || []).reduce((acc, issue) => {
+    const level = issue.criterion?.level
+    if (level) acc[level] = (acc[level] || 0) + 1
+    return acc
+  }, {})
+
   return (
     <div className="space-y-4">
       <div className="flex items-center justify-between">
@@ -114,6 +120,22 @@ export default function ResultsDisplay({ results }) {
           {copied ? 'Copied!' : 'Copy to Clipboard'}
         </button>
       </div>
+
+      {results.issues?.length > 0 && (
+        <div className="flex gap-3">
+          {['A', 'AA', 'AAA'].map((level) =>
+            levelCounts[level] ? (
+              <div
+                key={level}
+                className={`flex-1 rounded-lg px-4 py-3 ${getLevelColor(level)}`}
+              >
+                <p className="text-2xl font-bold">{levelCounts[level]}</p>
+                <p className="text-xs font-medium">Level {level}</p>
+              </div>
+            ) : null
+          )}
+        </div>
+      )}
 
       {results.summary && (
         <div className="bg-blue-50 border border-blue-200 rounded-lg p-4">
