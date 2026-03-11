@@ -34,7 +34,7 @@ export default function PasswordPrompt({ onAuthenticated }) {
         <p className="text-sm text-gray-500 mb-6">Enter password to continue</p>
         <form onSubmit={handleSubmit}>
           <input
-            type="password"
+            type="text"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
             placeholder="Password"
